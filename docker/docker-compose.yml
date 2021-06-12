@@ -5,7 +5,7 @@ services:
     container_name: general-server-assistant
     restart: always
     ports:
-      - 9999:9999
+      - 9898:9999
     volumes:
       - /volume5/docker/guaxiaoqi/config:/home/gstant/general-server-assistant/config/
       - /volume5/docker/guaxiaoqi/plugins:/home/gstant/general-server-assistant/app/plugins
